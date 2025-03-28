@@ -46,14 +46,14 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "17a8afa00ed7e51776915db1c410632ea8a0bfe2")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'indianshortner.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "17a8afa00ed7e51776915db1c410632ea8a0bfe2")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'indianshortner.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "17a8afa00ed7e51776915db1c410632ea8a0bfe2")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'indianshortner.com')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "60"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "60"))
+SHORTENER_API = environ.get("SHORTENER_API", "d49d42c3de6644330056961451c81c531503b114")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'indiaearnx.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "d49d42c3de6644330056961451c81c531503b114")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'indiaearnx.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "d49d42c3de6644330056961451c81c531503b114")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'indiaearnx.com')
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "30"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "30"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
