@@ -52,13 +52,13 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "17a8afa00ed7e51776915db1c410632e
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'indianshortner.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "17a8afa00ed7e51776915db1c410632ea8a0bfe2")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'indianshortner.com')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "60"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "60"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
 QUALITIES = ["HdRip","web-dl" ,"bluray", "hdr", "fhd" , "240p", "360p", "480p", "540p", "720p", "960p", "1080p", "1440p", "2K", "2160p", "4k", "5K", "8K"]
-YEARS = [f'{i}' for i in range(2024 , 2002,-1 )]
+YEARS = [f'{i}' for i in range(2025 , 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
 REF_PREMIUM = 30
 PREMIUM_POINT = 1500
