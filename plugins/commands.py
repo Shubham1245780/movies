@@ -50,8 +50,8 @@ async def start(client:Client, message):
         pass
     m = message
     user_id = m.from_user.id
-    if len(m.command) == 2 and m.command[1].startswith('notcopy'):
-        _, userid, verify_id, file_id = m.command[1].split("_", 3)
+    if len(m.command) == 2 and m.command[1].startswith('file'):
+        _, grp_id, verify_id, file_id = m.command[1].split("_", 3)
         user_id = int(userid)
         grp_id = temp.CHAT.get(user_id, 0)
 
