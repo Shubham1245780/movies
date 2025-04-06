@@ -51,9 +51,9 @@ async def start(client:Client, message):
     m = message
     user_id = m.from_user.id
     if len(m.command) == 2 and m.command[1].startswith('notcopy'):
-        _, grp_id_str, userid, verify_id, file_id = m.command[1].split("_", 4)
-user_id = int(userid)
-grp_id = int(grp_id_str)
+        _, userid, verify_id, file_id = m.command[1].split("_", 3)
+        user_id = int(userid)
+        grp_id = temp.CHAT.get(user_id, 0)
 
         settings = await get_settings(grp_id)         
         verify_id_info = await db.get_verify_id_info(user_id, verify_id)
