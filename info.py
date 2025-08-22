@@ -25,8 +25,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/iokmovei')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002652712405').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://IMovieme:IMovieme@imovieme.odkj7rs.mongodb.net/?retryWrites=true&w=majority&appName=IMovieme")
-DATABASE_NAME = environ.get('DATABASE_NAME', "IMovieme")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ultron2:Ultron2@ultron2.axjlu.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Ultrondb")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -46,12 +46,12 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "d49d42c3de6644330056961451c81c531503b114")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'indiaearnx.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "d49d42c3de6644330056961451c81c531503b114")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'indiaearnx.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "d49d42c3de6644330056961451c81c531503b114")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'indiaearnx.com')
+SHORTENER_API = environ.get("SHORTENER_API", "cf7fed17227c4046bae708cbb43515eb0a2c34e1")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'pocolinks.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "cf7fed17227c4046bae708cbb43515eb0a2c34e1")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'pocolinks.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "cf7fed17227c4046bae708cbb43515eb0a2c34e1")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'pocolinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "120"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "120"))
 #---------------------------------------------------------------
